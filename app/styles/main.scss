@@ -1,0 +1,243 @@
+        $icon-font-path: '../fonts/';
+        // bower:scss
+        @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+        // endbower
+        .browserupgrade {
+            margin: 0.2em 0;
+            background: #ccc;
+            color: #000;
+            padding: 0.2em 0;
+        }
+        /* Space out content a bit */
+
+        body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        * {
+            // border: 1px solid red;
+        }
+        /* Everything but the jumbotron gets side spacing for mobile first views */
+
+        .header,
+        .marketing,
+        .footer {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        /* Custom page header */
+
+        .header {
+            border-bottom: 1px solid #e5e5e5;
+            /* Make the masthead heading the same height as the navigation */
+            h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 40px;
+                padding-bottom: 19px;
+            }
+        }
+        /* Custom page footer */
+
+        .footer {
+            padding-top: 19px;
+            color: #777;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .container-narrow > hr {
+            margin: 30px 0;
+        }
+        /* Main marketing message and sign up button */
+
+        .jumbotron {
+            text-align: center;
+            border-bottom: 1px solid #e5e5e5;
+            .btn {
+                font-size: 21px;
+                padding: 14px 24px;
+            }
+        }
+        /* Supporting marketing content */
+
+        .marketing {
+            margin: 40px 0;
+            p + h4 {
+                margin-top: 28px;
+            }
+        }
+
+        .blk-bg {
+            background-color: #000;
+            height: 80%;
+            width: 100%;
+        }
+
+        .map-bg {
+            position: relative;
+            height: 656px;
+            @media (max-width: 1199px) {
+                height: 558px;
+            }
+            @media (max-width: 989px) {
+                height: 457px;
+            }
+            @media (max-width: 789px) {
+                height: 401px;
+            }
+            @media (max-width: 766px) {
+                height: 357px;
+            }
+        }
+
+        .map-bg-container {
+            position: absolute;
+            width: 100%;
+            .map {
+                width: 1170px;
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+                @media (max-width: 1199px) {
+                    width: 1000px;
+                }
+                @media (max-width: 989px) {
+                    width: 820px;
+                }
+                @media (max-width: 789px) {
+                    width: 720px;
+                }
+                @media (max-width: 766px) {
+                    width: 640px;
+                }
+                @media (max-width: 435px) {
+                    width: 400px;
+                }
+            }
+        }
+
+        .buff,
+        .bing,
+        .cuse,
+        .roch,
+        .albany {
+            position: absolute;
+            img {
+                width: 100px;
+                @media (max-width: 1199px) {
+                    width: 80px;
+                }
+                @media (max-width: 789px) {
+                    width: 70px;
+                }
+                @media (max-width: 766px) {
+                    width: 60px;
+                }
+            }
+        }
+
+        .buff {
+            left: 179px;
+            top: 238px;
+            @media (max-width: 1199px) {
+                left: 160px;
+                top: 220px;
+            }
+            @media (max-width: 989px) {
+                left: 130px;
+                top: 165px;
+            }
+            @media (max-width: 789px) {
+                left: 132px;
+                top: 148px;
+            }
+            @media (max-width: 766px) {
+                left: 153px;
+                top: 130px;
+            }
+        }
+
+        .roch {
+            left: 257px;
+            top: 194px;
+            @media (max-width: 1199px) {
+                left: 228px;
+                top: 176px;
+            }
+            @media (max-width: 989px) {
+                left: 180px;
+                top: 130px;
+            }
+            @media (max-width: 789px) {
+                left: 175px;
+                top: 115px;
+            }
+            @media (max-width: 766px) {
+                left: 194px;
+                top: 100px;
+            }
+        }
+
+        .cuse {
+            left: 343px;
+            top: 140px;
+            @media (max-width: 1199px) {
+                left: 297px;
+                top: 120px;
+            }
+            @media (max-width: 989px) {
+                left: 240px;
+                top: 86px;
+            }
+            @media (max-width: 789px) {
+                left: 227px;
+                top: 81px;
+            }
+            @media (max-width: 766px) {
+                left: 241px;
+                top: 68px;
+            }
+        }
+
+        .bing {
+            left: 550px;
+            top: 220px;
+            @media (max-width: 1199px) {
+                left: 472px;
+                top: 200px;
+            }
+            @media (max-width: 989px) {
+                left: 380px;
+                top: 150px;
+            }
+            @media (max-width: 789px) {
+                left: 353px;
+                top: 130px;
+            }
+            @media (max-width: 766px) {
+                left: 355px;
+                top: 118px;
+            }
+        }
+
+        .albany {
+            left: 685px;
+            top: 120px;
+            @media (max-width: 1199px) {
+                left: 592px;
+                top: 112px;
+            }
+            @media (max-width: 989px) {
+                left: 479px;
+                top: 80px;
+            }
+            @media (max-width: 789px) {
+                left: 440px;
+                top: 73px;
+            }
+            @media (max-width: 766px) {
+                left:430px;
+                top: 59px;
+            }
+        }
